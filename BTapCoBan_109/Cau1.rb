@@ -1,10 +1,10 @@
 print "Nhap vao n pt: "
-n = gets.to_i
-arr = Array[n]
-sum = 0
-for i in 0..n
+n_109 = gets.to_i
+arr_109 = Array[n]
+sum_109 = 0
+for i in 0..n_109
     if (i % 2 ==0)
-        sum=sum+i
+        sum_109=sum_109+i
     end
 end
-puts "Sum = #{sum}"
+puts "Sum = #{sum_109}"
